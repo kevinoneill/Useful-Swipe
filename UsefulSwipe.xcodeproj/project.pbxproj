@@ -7,35 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A9849B21414DEC700F85D79 /* LayoutsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9849B11414DEC700F85D79 /* LayoutsController.m */; };
+		0A9849BA14150AD600F85D79 /* GestureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9849B914150AD600F85D79 /* GestureController.m */; };
+		0A9849BD141515D800F85D79 /* swipe-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9849BB141515D800F85D79 /* swipe-logo.png */; };
+		0A9849BE141515D800F85D79 /* swipe-logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9849BC141515D800F85D79 /* swipe-logo@2x.png */; };
 		0AF3ADB71413294E00E6C6C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF3ADB61413294E00E6C6C1 /* UIKit.framework */; };
 		0AF3ADB91413294E00E6C6C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF3ADB81413294E00E6C6C1 /* Foundation.framework */; };
 		0AF3ADBB1413294E00E6C6C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF3ADBA1413294E00E6C6C1 /* CoreGraphics.framework */; };
 		0AF3ADC11413294E00E6C6C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AF3ADBF1413294E00E6C6C1 /* InfoPlist.strings */; };
 		0AF3ADC31413294E00E6C6C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF3ADC21413294E00E6C6C1 /* main.m */; };
 		0AF3ADC71413294E00E6C6C1 /* UsefulSwipeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF3ADC61413294E00E6C6C1 /* UsefulSwipeAppDelegate.m */; };
-		0AF3ADCB1413294E00E6C6C1 /* UsefulSwipeAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF3ADCA1413294E00E6C6C1 /* UsefulSwipeAppDelegate_iPhone.m */; };
-		0AF3ADCE1413294E00E6C6C1 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AF3ADCC1413294E00E6C6C1 /* MainWindow_iPhone.xib */; };
-		0AF3ADD21413294E00E6C6C1 /* UsefulSwipeAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF3ADD11413294E00E6C6C1 /* UsefulSwipeAppDelegate_iPad.m */; };
-		0AF3ADD51413294E00E6C6C1 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AF3ADD31413294E00E6C6C1 /* MainWindow_iPad.xib */; };
+		0AF3ADDC14132A7400E6C6C1 /* UsefulBits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF3ADDB14132A7400E6C6C1 /* UsefulBits.framework */; };
+		0AF3ADE01413310C00E6C6C1 /* ArraySamplesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF3ADDF1413310C00E6C6C1 /* ArraySamplesController.m */; };
+		0AF3ADF41413413D00E6C6C1 /* DCCrossHairView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF3ADEC1413413D00E6C6C1 /* DCCrossHairView.m */; };
+		0AF3ADF51413413D00E6C6C1 /* DCFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF3ADEE1413413D00E6C6C1 /* DCFrameView.m */; };
+		0AF3ADF61413413D00E6C6C1 /* DCIntrospect.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF3ADF01413413D00E6C6C1 /* DCIntrospect.m */; };
+		0AF3ADF71413413D00E6C6C1 /* DCStatusBarOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF3ADF31413413D00E6C6C1 /* DCStatusBarOverlay.m */; };
+		0AF3ADF91413418400E6C6C1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF3ADF81413418400E6C6C1 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A9849AF1414DD4800F85D79 /* ArraySamplesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArraySamplesController.h; sourceTree = "<group>"; };
+		0A9849B01414DEC700F85D79 /* LayoutsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutsController.h; sourceTree = "<group>"; };
+		0A9849B11414DEC700F85D79 /* LayoutsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutsController.m; sourceTree = "<group>"; };
+		0A9849B814150AD600F85D79 /* GestureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureController.h; sourceTree = "<group>"; };
+		0A9849B914150AD600F85D79 /* GestureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureController.m; sourceTree = "<group>"; };
+		0A9849BB141515D800F85D79 /* swipe-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "swipe-logo.png"; sourceTree = "<group>"; };
+		0A9849BC141515D800F85D79 /* swipe-logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "swipe-logo@2x.png"; sourceTree = "<group>"; };
 		0AF3ADB21413294E00E6C6C1 /* UsefulSwipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsefulSwipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF3ADB61413294E00E6C6C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0AF3ADB81413294E00E6C6C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0AF3ADBA1413294E00E6C6C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0AF3ADBE1413294E00E6C6C1 /* UsefulSwipe-Info.plist */ = {isa = PBXFileReference; path = "UsefulSwipe-Info.plist"; sourceTree = "<group>"; };
+		0AF3ADBE1413294E00E6C6C1 /* UsefulSwipe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UsefulSwipe-Info.plist"; sourceTree = "<group>"; };
 		0AF3ADC01413294E00E6C6C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0AF3ADC21413294E00E6C6C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0AF3ADC41413294E00E6C6C1 /* UsefulSwipe-Prefix.pch */ = {isa = PBXFileReference; path = "UsefulSwipe-Prefix.pch"; sourceTree = "<group>"; };
-		0AF3ADC51413294E00E6C6C1 /* UsefulSwipeAppDelegate.h */ = {isa = PBXFileReference; path = UsefulSwipeAppDelegate.h; sourceTree = "<group>"; };
+		0AF3ADC41413294E00E6C6C1 /* UsefulSwipe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UsefulSwipe-Prefix.pch"; sourceTree = "<group>"; };
+		0AF3ADC51413294E00E6C6C1 /* UsefulSwipeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UsefulSwipeAppDelegate.h; sourceTree = "<group>"; };
 		0AF3ADC61413294E00E6C6C1 /* UsefulSwipeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UsefulSwipeAppDelegate.m; sourceTree = "<group>"; };
-		0AF3ADC91413294E00E6C6C1 /* UsefulSwipeAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = UsefulSwipeAppDelegate_iPhone.h; path = iPhone/UsefulSwipeAppDelegate_iPhone.h; sourceTree = "<group>"; };
-		0AF3ADCA1413294E00E6C6C1 /* UsefulSwipeAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = UsefulSwipeAppDelegate_iPhone.m; path = iPhone/UsefulSwipeAppDelegate_iPhone.m; sourceTree = "<group>"; };
-		0AF3ADCD1413294E00E6C6C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		0AF3ADD01413294E00E6C6C1 /* UsefulSwipeAppDelegate_iPad.h */ = {isa = PBXFileReference; name = UsefulSwipeAppDelegate_iPad.h; path = iPad/UsefulSwipeAppDelegate_iPad.h; sourceTree = "<group>"; };
-		0AF3ADD11413294E00E6C6C1 /* UsefulSwipeAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = UsefulSwipeAppDelegate_iPad.m; path = iPad/UsefulSwipeAppDelegate_iPad.m; sourceTree = "<group>"; };
-		0AF3ADD41413294E00E6C6C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		0AF3ADDB14132A7400E6C6C1 /* UsefulBits.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UsefulBits.framework; path = "../UsefulBits/build/Release-iphoneos/UsefulBits.framework"; sourceTree = "<group>"; };
+		0AF3ADDF1413310C00E6C6C1 /* ArraySamplesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArraySamplesController.m; sourceTree = "<group>"; };
+		0AF3ADEB1413413D00E6C6C1 /* DCCrossHairView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCCrossHairView.h; sourceTree = "<group>"; };
+		0AF3ADEC1413413D00E6C6C1 /* DCCrossHairView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCCrossHairView.m; sourceTree = "<group>"; };
+		0AF3ADED1413413D00E6C6C1 /* DCFrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCFrameView.h; sourceTree = "<group>"; };
+		0AF3ADEE1413413D00E6C6C1 /* DCFrameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCFrameView.m; sourceTree = "<group>"; };
+		0AF3ADEF1413413D00E6C6C1 /* DCIntrospect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCIntrospect.h; sourceTree = "<group>"; };
+		0AF3ADF01413413D00E6C6C1 /* DCIntrospect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCIntrospect.m; sourceTree = "<group>"; };
+		0AF3ADF11413413D00E6C6C1 /* DCIntrospectSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCIntrospectSettings.h; sourceTree = "<group>"; };
+		0AF3ADF21413413D00E6C6C1 /* DCStatusBarOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCStatusBarOverlay.h; sourceTree = "<group>"; };
+		0AF3ADF31413413D00E6C6C1 /* DCStatusBarOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCStatusBarOverlay.m; sourceTree = "<group>"; };
+		0AF3ADF81413418400E6C6C1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AF3ADF91413418400E6C6C1 /* QuartzCore.framework in Frameworks */,
+				0AF3ADDC14132A7400E6C6C1 /* UsefulBits.framework in Frameworks */,
 				0AF3ADB71413294E00E6C6C1 /* UIKit.framework in Frameworks */,
 				0AF3ADB91413294E00E6C6C1 /* Foundation.framework in Frameworks */,
 				0AF3ADBB1413294E00E6C6C1 /* CoreGraphics.framework in Frameworks */,
@@ -55,9 +77,13 @@
 		0AF3ADA71413294E00E6C6C1 = {
 			isa = PBXGroup;
 			children = (
+				0AF3ADF81413418400E6C6C1 /* QuartzCore.framework */,
 				0AF3ADBC1413294E00E6C6C1 /* UsefulSwipe */,
+				0AF3ADE81413412200E6C6C1 /* Vendor */,
 				0AF3ADB51413294E00E6C6C1 /* Frameworks */,
 				0AF3ADB31413294E00E6C6C1 /* Products */,
+				0A9849BB141515D800F85D79 /* swipe-logo.png */,
+				0A9849BC141515D800F85D79 /* swipe-logo@2x.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +98,7 @@
 		0AF3ADB51413294E00E6C6C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0AF3ADDB14132A7400E6C6C1 /* UsefulBits.framework */,
 				0AF3ADB61413294E00E6C6C1 /* UIKit.framework */,
 				0AF3ADB81413294E00E6C6C1 /* Foundation.framework */,
 				0AF3ADBA1413294E00E6C6C1 /* CoreGraphics.framework */,
@@ -84,8 +111,7 @@
 			children = (
 				0AF3ADC51413294E00E6C6C1 /* UsefulSwipeAppDelegate.h */,
 				0AF3ADC61413294E00E6C6C1 /* UsefulSwipeAppDelegate.m */,
-				0AF3ADC81413294E00E6C6C1 /* iPhone */,
-				0AF3ADCF1413294E00E6C6C1 /* iPad */,
+				0AF3ADDD141330E700E6C6C1 /* Controllers */,
 				0AF3ADBD1413294E00E6C6C1 /* Supporting Files */,
 			);
 			path = UsefulSwipe;
@@ -102,24 +128,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0AF3ADC81413294E00E6C6C1 /* iPhone */ = {
+		0AF3ADDD141330E700E6C6C1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				0AF3ADC91413294E00E6C6C1 /* UsefulSwipeAppDelegate_iPhone.h */,
-				0AF3ADCA1413294E00E6C6C1 /* UsefulSwipeAppDelegate_iPhone.m */,
-				0AF3ADCC1413294E00E6C6C1 /* MainWindow_iPhone.xib */,
+				0A9849AF1414DD4800F85D79 /* ArraySamplesController.h */,
+				0AF3ADDF1413310C00E6C6C1 /* ArraySamplesController.m */,
+				0A9849B01414DEC700F85D79 /* LayoutsController.h */,
+				0A9849B11414DEC700F85D79 /* LayoutsController.m */,
+				0A9849B814150AD600F85D79 /* GestureController.h */,
+				0A9849B914150AD600F85D79 /* GestureController.m */,
 			);
-			name = iPhone;
+			name = Controllers;
 			sourceTree = "<group>";
 		};
-		0AF3ADCF1413294E00E6C6C1 /* iPad */ = {
+		0AF3ADE81413412200E6C6C1 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				0AF3ADD01413294E00E6C6C1 /* UsefulSwipeAppDelegate_iPad.h */,
-				0AF3ADD11413294E00E6C6C1 /* UsefulSwipeAppDelegate_iPad.m */,
-				0AF3ADD31413294E00E6C6C1 /* MainWindow_iPad.xib */,
+				0AF3ADEA1413413D00E6C6C1 /* DCIntrospect */,
 			);
-			name = iPad;
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		0AF3ADEA1413413D00E6C6C1 /* DCIntrospect */ = {
+			isa = PBXGroup;
+			children = (
+				0AF3ADEB1413413D00E6C6C1 /* DCCrossHairView.h */,
+				0AF3ADEC1413413D00E6C6C1 /* DCCrossHairView.m */,
+				0AF3ADED1413413D00E6C6C1 /* DCFrameView.h */,
+				0AF3ADEE1413413D00E6C6C1 /* DCFrameView.m */,
+				0AF3ADEF1413413D00E6C6C1 /* DCIntrospect.h */,
+				0AF3ADF01413413D00E6C6C1 /* DCIntrospect.m */,
+				0AF3ADF11413413D00E6C6C1 /* DCIntrospectSettings.h */,
+				0AF3ADF21413413D00E6C6C1 /* DCStatusBarOverlay.h */,
+				0AF3ADF31413413D00E6C6C1 /* DCStatusBarOverlay.m */,
+			);
+			name = DCIntrospect;
+			path = Vendor/DCIntrospect/DCIntrospect;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +191,10 @@
 /* Begin PBXProject section */
 		0AF3ADA91413294E00E6C6C1 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Kevin O'Neill";
+			};
 			buildConfigurationList = 0AF3ADAC1413294E00E6C6C1 /* Build configuration list for PBXProject "UsefulSwipe" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -170,8 +218,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AF3ADC11413294E00E6C6C1 /* InfoPlist.strings in Resources */,
-				0AF3ADCE1413294E00E6C6C1 /* MainWindow_iPhone.xib in Resources */,
-				0AF3ADD51413294E00E6C6C1 /* MainWindow_iPad.xib in Resources */,
+				0A9849BD141515D800F85D79 /* swipe-logo.png in Resources */,
+				0A9849BE141515D800F85D79 /* swipe-logo@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,8 +232,13 @@
 			files = (
 				0AF3ADC31413294E00E6C6C1 /* main.m in Sources */,
 				0AF3ADC71413294E00E6C6C1 /* UsefulSwipeAppDelegate.m in Sources */,
-				0AF3ADCB1413294E00E6C6C1 /* UsefulSwipeAppDelegate_iPhone.m in Sources */,
-				0AF3ADD21413294E00E6C6C1 /* UsefulSwipeAppDelegate_iPad.m in Sources */,
+				0AF3ADE01413310C00E6C6C1 /* ArraySamplesController.m in Sources */,
+				0AF3ADF41413413D00E6C6C1 /* DCCrossHairView.m in Sources */,
+				0AF3ADF51413413D00E6C6C1 /* DCFrameView.m in Sources */,
+				0AF3ADF61413413D00E6C6C1 /* DCIntrospect.m in Sources */,
+				0AF3ADF71413413D00E6C6C1 /* DCStatusBarOverlay.m in Sources */,
+				0A9849B21414DEC700F85D79 /* LayoutsController.m in Sources */,
+				0A9849BA14150AD600F85D79 /* GestureController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,22 +251,6 @@
 				0AF3ADC01413294E00E6C6C1 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		0AF3ADCC1413294E00E6C6C1 /* MainWindow_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0AF3ADCD1413294E00E6C6C1 /* en */,
-			);
-			name = MainWindow_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		0AF3ADD31413294E00E6C6C1 /* MainWindow_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0AF3ADD41413294E00E6C6C1 /* en */,
-			);
-			name = MainWindow_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -234,11 +271,15 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -252,12 +293,16 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -269,6 +314,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UsefulSwipe/UsefulSwipe-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "UsefulSwipe/UsefulSwipe-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -280,6 +326,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UsefulSwipe/UsefulSwipe-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "UsefulSwipe/UsefulSwipe-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -305,6 +352,7 @@
 				0AF3ADDA1413294E00E6C6C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

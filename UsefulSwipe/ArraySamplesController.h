@@ -1,5 +1,5 @@
 //
-//  UsefulSwipeAppDelegate.h
+//  MainController.h
 //  UsefulSwipe
 //
 //  Created by Kevin O'Neill on 4/09/11.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UsefulSwipeAppDelegate : NSObject <UIApplicationDelegate>
+@interface ArraySamplesController : UIViewController
 
 @end

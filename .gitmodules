@@ -1,0 +1,3 @@
+[submodule "Vendor/DCIntrospect"]
+	path = Vendor/DCIntrospect
+	url = git://github.com/domesticcatsoftware/DCIntrospect.git

@@ -1,22 +1,85 @@
-//
-//  UsefulSwipeAppDelegate.m
-//  UsefulSwipe
-//
-//  Created by Kevin O'Neill on 4/09/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
+  //
+  //  UsefulSwipeAppDelegate.m
+  //  UsefulSwipe
+  //
+  //  Created by Kevin O'Neill on 4/09/11.
+  //  Copyright 2011 Kevin O'Neill. All rights reserved.
+  //
 
 #import "UsefulSwipeAppDelegate.h"
 
+#import <UsefulBits/UsefulBits.h>
+
+#import "ArraySamplesController.h"
+#import "LayoutsController.h"
+#import "GestureController.h"
+
+#ifdef TARGET_IPHONE_SIMULATOR
+  #import "DCIntrospect.h"
+#endif
+
+@interface UsefulSwipeAppDelegate ()
+
+@property (nonatomic, retain) UIViewController *root;
+
+@end
+
 @implementation UsefulSwipeAppDelegate
 
-@synthesize window = _window;
+@synthesize window = window_;
+@synthesize root = root_;
+
+- (void)dealloc
+{
+  UBRELEASE(window_);
+  UBRELEASE(root_);
+  
+  [super dealloc];
+}
+
+#pragma mark - UIApplicationDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-  // Override point for customization after application launch.
-  [self.window makeKeyAndVisible];
-    return YES;
+  window_ = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+  
+  ArraySamplesController *array_controller = [[ArraySamplesController alloc] initWithNibName:nil bundle:nil];
+  UINavigationController *array_samples = [[UINavigationController alloc] initWithRootViewController:array_controller];
+  UBRELEASE(array_controller);
+  
+  LayoutsController *layout_controller = [[LayoutsController alloc] initWithNibName:nil bundle:nil];
+  UINavigationController *layout_samples = [[UINavigationController alloc] initWithRootViewController:layout_controller];
+  UBRELEASE(layout_controller);
+  
+  GestureController *gesture_controller = [[GestureController alloc] initWithNibName:nil bundle:nil];
+  UINavigationController *gesture_samples = [[UINavigationController alloc] initWithRootViewController:gesture_controller];
+  UBRELEASE(gesture_controller);
+
+  NSArray *controllers = [NSArray arrayWithObjects:
+                          array_samples,
+                          layout_samples,
+                          gesture_samples,
+                          nil];
+  
+  UBRELEASE(array_samples);
+  UBRELEASE(layout_samples);
+  UBRELEASE(gesture_samples);
+  
+  UITabBarController *tab_controller = [[UITabBarController alloc] initWithNibName:nil bundle:nil];
+  [tab_controller setViewControllers:controllers];
+  UBRELEASE(controllers);
+   
+  root_ = tab_controller;
+  [window_ addSubview:[root_ view]];
+  
+  [window_ makeKeyAndVisible];
+  
+    // always call after makeKeyAndDisplay.
+#ifdef TARGET_IPHONE_SIMULATOR
+  [[DCIntrospect sharedIntrospector] start];
+#endif
+  
+  return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -56,12 +119,6 @@
    Save data if appropriate.
    See also applicationDidEnterBackground:.
    */
-}
-
-- (void)dealloc
-{
-  [_window release];
-    [super dealloc];
 }
 
 @end
